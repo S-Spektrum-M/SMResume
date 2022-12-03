@@ -1,9 +1,13 @@
+function trucnate(str, n) {
+    return str.slice(0, n) + '...'
+}
+
 export function Publication(props)  {
     return (
         <div className="card">
             <h3> {props.text} </h3>
             <p className="description">
-                {props.abstract}
+                {trucnate(props.abstract, 100)}
             </p>
             <a href={props.link}>
                 Read More

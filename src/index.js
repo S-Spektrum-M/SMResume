@@ -47,21 +47,21 @@ class Resume extends React.Component {
                         text={'Security Price Analysis using Sentiment Analysis, Polynomial Regression, Markov Chains, and CART Trees'}
                         abstract={'Many quantitative funds rely on data collection from buying user trades from brokerages while other funds attempt to make money off of small differences in price over minuscule amounts of time. This paper attempts to architect a python[1] system by which we analyze signals from Markov Chains[2], Polynomial Regression, and Sentiment Analysis latter passed into Decision Trees[3] for a holistic evaluation based solely on publicly available information.'}
                     />
-                    <Card
-                        type={'publication'}
-                        link={'https://drive.google.com/file/d/1BXW6yoT6RMRltHnM5Np2e_WoLu3jFb1r/view?usp=sharing'}
-                        text={'Asset Allocation: From Markowitz to Deep Reinforcement Learning'}
-                        abstract={'Asset allocation is an investment strategy that aims to balance risk and reward by constantly redistributing the portfolio’s assets according to certain goals, risk tolerance, and investment horizon. Unfortunately, there is no simple formula that can find the right allocation for every individual. As a result, investors may use different asset allocations’ strategy to try to fulfil their financial objectives. In this work, we conduct an extensive benchmark study to determine the efficacy and reliability of a number of optimization techniques. In ...'}
-                    />
                 </section>
                 <h2> Experience & Leadership </h2>
                 <section className="container">
                     <Card
                         type={'organization'}
+                        text={'Jane Street Capital'}
+                        roles={[
+                            [ '2022', '2022', 'Quantitave Research & Engineering Intern', 'I worked with a research team at JSC an learned how to effectively scale internal predictive models. I also learned how to build APIs that are currently in daily use at JSC with 100% uptime.'],
+                        ]}
+                    />
+                    <Card
+                        type={'organization'}
                         text={'Washington High School Computer Science Club'}
                         roles={[
                             [ '2022', '2023', 'Instructor', ''],
-                            [ '2022', '2023', 'Secretary', ''],
                             [ '2021', '2022', 'Member', ''],
                         ]}
                     />
@@ -101,14 +101,39 @@ class Resume extends React.Component {
                 <section className="container">
                     <Card
                         type={'education'}
+                        school={'UC Santa Cruz'}
+                        gpa={5.0}
+                        courses={[
+                            "MATH101: Mathematical Problem Solving",
+                            "MATH100: Intro to Proofs"
+                        ]}
+                    />
+                    <Card
+                        type={'education'}
+                        school={'UC Scout'}
+                        gpa={5.0}
+                        courses={[
+                            "AP Physics C",
+                        ]}
+                    />
+                    <Card
+                        type={'education'}
+                        school={'Elite Open School'}
+                        gpa={5.0}
+                        courses={[
+                            "AP United States History",
+                        ]}
+                    />
+                    <Card
+                        type={'education'}
                         school={'Washington High School'}
                         gpa={4.04}
                         courses={[
                             'AP Computer Science  A',
                             'AP Calculus BC',
-                            'Honors Precalculus',
                             'AP Physics 1',
                             'AP European History',
+                            'Honors Precalculus',
                             'English 11 Honors',
                             'English 10 Honors',
                             'Spanish 1-3',
@@ -119,9 +144,13 @@ class Resume extends React.Component {
                         school={'Ohlone Community College'}
                         gpa={4.33}
                         courses={[
-                            'Linear Algebra',
-                            'Calculus with Analytic Geometry 3',
-                            'Introduction to C++',
+                            "MATH101C: Calculus with Analytic Geometry 3",
+                            "MATH103: Introduction to Linear Algebra",
+                            "MATH104: Differential Equations",
+                            "CS124: Programming with Discrete Structures",
+                            "CS113: Discrete Structures",
+                            "CS116: Introduction to Object Oriented Programming With C++",
+                            "CS102: Introduction to Programming With C++",
                         ]}
                     />
                 </section>

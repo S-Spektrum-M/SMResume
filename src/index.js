@@ -38,7 +38,6 @@ class Resume extends React.Component {
     render() {
         return (
             <div className="head">
-                <h1> Siddharth Mohanty: Student/Researcher </h1>
                 <h2> Publications </h2>
                 <section className="container">
                     <Card
@@ -159,7 +158,13 @@ class Resume extends React.Component {
     }
 }
 
+function App(props)  {
+    return (
+        <Resume />
+    );
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <Resume />
+    <App />
 );

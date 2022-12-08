@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 import {Publication} from './sections/pubs';
 import {Organization} from './sections/orgs';
 import {Education} from './sections/schools';
+import {Award} from './sections/awards';
 import './index.css';
 
 
@@ -27,6 +28,11 @@ function Card(props)  {
             gpa={props.gpa}
             courses={props.courses}
         />
+    } else if(props.type === 'award') {
+        return <Award
+            text={props.text}
+            description={props.description}
+        />
     }
 }
 
@@ -46,14 +52,27 @@ class Resume extends React.Component {
                         text={'Security Price Analysis using Sentiment Analysis, Polynomial Regression, Markov Chains, and CART Trees'}
                         abstract={'Many quantitative funds rely on data collection from buying user trades from brokerages while other funds attempt to make money off of small differences in price over minuscule amounts of time. This paper attempts to architect a python[1] system by which we analyze signals from Markov Chains[2], Polynomial Regression, and Sentiment Analysis latter passed into Decision Trees[3] for a holistic evaluation based solely on publicly available information.'}
                     />
+                    <Card
+                        type={'publication'}
+                        link={'https://drive.google.com/file/d/1-ee7568pyCOz5K2uFFOjDBTTfSVYQLBF/view'}
+                        text={'Decision Boundary Optimization & Parameter Search Reduction: A Non-Gradient Based Method for Objective Function Optimization'}
+                        abstract={''}
+                    />
                 </section>
                 <h2> Experience & Leadership </h2>
                 <section className="container">
                     <Card
                         type={'organization'}
+                        text={'J.P. Morgan Chase'}
+                        roles={[
+                            [ '2022', '2023', 'Quantitative Research Intern', 'I helped develop 2 novel algorithms, Parameter Search Reduction and Decision Boundary Optimization, which have high penetration within JPMC.'],
+                        ]}
+                    />
+                    <Card
+                        type={'organization'}
                         text={'Jane Street Capital'}
                         roles={[
-                            [ '2022', '2022', 'Quantitave Research & Engineering Intern', 'I worked with a research team at JSC an learned how to effectively scale internal predictive models. I also learned how to build APIs that are currently in daily use at JSC with 100% uptime.'],
+                            [ '2022', '2022', 'Quantitative Research & Engineering Intern', 'I worked with a research team at JSC an learned how to effectively scale internal predictive models. I also learned how to build APIs that are currently in daily use at JSC with 100% uptime.'],
                         ]}
                     />
                     <Card
@@ -96,6 +115,24 @@ class Resume extends React.Component {
                         ]}
                     />
                 </section>
+                <h2> Accolades </h2>
+                <section className="container">
+                    <Card
+                        type={'award'}
+                        text={'USACO Division: Silver'}
+                        description={''}
+                    />
+                    <Card
+                        type={'award'}
+                        text={'USAPHO Qualifier 1x'}
+                        description={''}
+                    />
+                    <Card
+                        type={'award'}
+                        text={'AIME Qualifier 1x'}
+                        description={''}
+                    />
+                </section>
                 <h2> Education </h2>
                 <section className="container">
                     <Card
@@ -112,7 +149,9 @@ class Resume extends React.Component {
                         school={'UC Scout'}
                         gpa={5.0}
                         courses={[
-                            "AP Physics C",
+                            "AP Physics C: Mechanics",
+                            "AP Physics C: Electricity and Magnetism",
+                            "AP Environmental Science",
                         ]}
                     />
                     <Card

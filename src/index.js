@@ -38,7 +38,7 @@ function Card(props)  {
 
 class Resume extends React.Component {
     componentDidMount() {
-        //document.title = "new title";
+        document.title = "Siddharth Mohanty Resume";
     }
 
     render() {
@@ -119,17 +119,7 @@ class Resume extends React.Component {
                 <section className="container">
                     <Card
                         type={'award'}
-                        text={'USACO Division: Silver'}
-                        description={''}
-                    />
-                    <Card
-                        type={'award'}
                         text={'USAPHO Qualifier 1x'}
-                        description={''}
-                    />
-                    <Card
-                        type={'award'}
-                        text={'AIME Qualifier 1x'}
                         description={''}
                     />
                 </section>
@@ -197,7 +187,7 @@ class Resume extends React.Component {
     }
 }
 
-function App(props)  {
+function App()  {
     return (
         <Resume />
     );
@@ -207,3 +197,14 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <App />
 );
+
+//<Card
+    //type={'award'}
+    //text={'USACO Division: Silver'}
+    //description={''}
+///>
+//<Card
+    //type={'award'}
+    //text={'AIME Qualifier 1x'}
+    //description={''}
+///>

@@ -206,7 +206,7 @@ class Resume extends React.Component {
                     />
                 </section>
                 <h2> Projects and Open Source </h2>
-                <section>
+                <section className="container">
                     <Card
                         type={'project'}
                         text={'GCC'}

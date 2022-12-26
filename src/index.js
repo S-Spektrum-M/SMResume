@@ -33,6 +33,12 @@ function Card(props)  {
             text={props.text}
             description={props.description}
         />
+    } else if(props.type === 'project') {
+        return <Publication
+            link={props.link}
+            text={props.text}
+            abstract={props.abstract}
+        />
     }
 }
 
@@ -180,6 +186,38 @@ class Resume extends React.Component {
                             "CS116: Introduction to Object Oriented Programming With C++",
                             "CS102: Introduction to Programming With C++",
                         ]}
+                    />
+                </section>
+                <h2> Accolades </h2>
+                <section className="container">
+                    <Card
+                        type={'education'}
+                        school={'Ohlone Community College'}
+                        gpa={4.33}
+                        courses={[
+                            "MATH101C: Calculus with Analytic Geometry 3",
+                            "MATH103: Introduction to Linear Algebra",
+                            "MATH104: Differential Equations",
+                            "CS124: Programming with Discrete Structures",
+                            "CS113: Discrete Structures",
+                            "CS116: Introduction to Object Oriented Programming With C++",
+                            "CS102: Introduction to Programming With C++",
+                        ]}
+                    />
+                </section>
+                <h2> Projects and Open Source </h2>
+                <section>
+                    <Card
+                        type={'project'}
+                        text={'GCC'}
+                        abstract={'I helped work on Go compilation support for GCC bugfixing coroutines and atomics.'}
+                        link={'https://github.com/gcc-mirror/gcc'}
+                    />
+                    <Card
+                        type={'project'}
+                        text={'TensorFlow'}
+                        abstract={'I am working on implementing native support for Parameter Search Decomposition'}
+                        link={'https://github.com/tensorflow/tensorflow'}
                     />
                 </section>
             </div>

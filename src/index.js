@@ -54,14 +54,14 @@ class Resume extends React.Component {
                 <section className="container">
                     <Card
                         type={'publication'}
-                        link={'https://drive.google.com/file/d/1-ee7568pyCOz5K2uFFOjDBTTfSVYQLBF/view'}
+                        link={'https://www.authorea.com/users/464986/articles/616273-security-price-analysis-using-sentiment-analysis-polynomial-regression-markov-chains-and-cart-trees'}
                         text={'Security Price Analysis using Sentiment Analysis, Polynomial Regression, Markov Chains, and CART Trees'}
                         abstract={'Many quantitative funds rely on data collection from buying user trades from brokerages while other funds attempt to make money off of small differences in price over minuscule amounts of time. This paper attempts to architect a python[1] system by which we analyze signals from Markov Chains[2], Polynomial Regression, and Sentiment Analysis latter passed into Decision Trees[3] for a holistic evaluation based solely on publicly available information.'}
                     />
                     <Card
                         type={'publication'}
+                        text={'Finding Stable Minima of Dynamic Systems'}
                         link={'https://drive.google.com/file/d/1-ee7568pyCOz5K2uFFOjDBTTfSVYQLBF/view'}
-                        text={'Decision Boundary Optimization & Parameter Search Reduction: A Non-Gradient Based Method for Objective Function Optimization'}
                         abstract={''}
                     />
                 </section>
@@ -173,23 +173,6 @@ class Resume extends React.Component {
                             'Spanish 1-3',
                         ]}
                     />
-                    <Card
-                        type={'education'}
-                        school={'Ohlone Community College'}
-                        gpa={4.33}
-                        courses={[
-                            "MATH101C: Calculus with Analytic Geometry 3",
-                            "MATH103: Introduction to Linear Algebra",
-                            "MATH104: Differential Equations",
-                            "CS124: Programming with Discrete Structures",
-                            "CS113: Discrete Structures",
-                            "CS116: Introduction to Object Oriented Programming With C++",
-                            "CS102: Introduction to Programming With C++",
-                        ]}
-                    />
-                </section>
-                <h2> Accolades </h2>
-                <section className="container">
                     <Card
                         type={'education'}
                         school={'Ohlone Community College'}

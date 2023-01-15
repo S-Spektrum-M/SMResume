@@ -55,14 +55,14 @@ class Resume extends React.Component {
                     <Card
                         type={'publication'}
                         link={'https://www.authorea.com/users/464986/articles/616273-security-price-analysis-using-sentiment-analysis-polynomial-regression-markov-chains-and-cart-trees'}
-                        text={'Security Price Analysis using Sentiment Analysis, Polynomial Regression, Markov Chains, and CART Trees'}
+                        text={'Price Analysis with Stochastic Calculus and Machine Leraning'}
                         abstract={'Many quantitative funds rely on data collection from buying user trades from brokerages while other funds attempt to make money off of small differences in price over minuscule amounts of time. This paper attempts to architect a python[1] system by which we analyze signals from Markov Chains[2], Polynomial Regression, and Sentiment Analysis latter passed into Decision Trees[3] for a holistic evaluation based solely on publicly available information.'}
                     />
                     <Card
                         type={'publication'}
-                        text={'Finding Stable Minima of Dynamic Systems'}
+                        text={'Applying Stochastic Calculus to Find Stable Minima of Dynamic Systems'}
                         link={'https://drive.google.com/file/d/1-ee7568pyCOz5K2uFFOjDBTTfSVYQLBF/view'}
-                        abstract={''}
+                        abstract={'This Paper Archtitects a novel algorithm for finding the minima of a dynamic system'}
                     />
                 </section>
                 <h2> Experience & Leadership </h2>
@@ -121,12 +121,19 @@ class Resume extends React.Component {
                         ]}
                     />
                 </section>
-                <h2> Accolades </h2>
+                <h2> Projects and Open Source </h2>
                 <section className="container">
                     <Card
-                        type={'award'}
-                        text={'USAPHO Qualifier 1x'}
-                        description={''}
+                        type={'project'}
+                        text={'GCC'}
+                        abstract={'I helped work on Go compilation support for GCC bugfixing coroutines and atomics.'}
+                        link={'https://github.com/gcc-mirror/gcc'}
+                    />
+                    <Card
+                        type={'project'}
+                        text={'TensorFlow'}
+                        abstract={'I am working on implementing native support for Parameter Search Decomposition'}
+                        link={'https://github.com/tensorflow/tensorflow'}
                     />
                 </section>
                 <h2> Education </h2>
@@ -188,19 +195,12 @@ class Resume extends React.Component {
                         ]}
                     />
                 </section>
-                <h2> Projects and Open Source </h2>
+                <h2> Accolades </h2>
                 <section className="container">
                     <Card
-                        type={'project'}
-                        text={'GCC'}
-                        abstract={'I helped work on Go compilation support for GCC bugfixing coroutines and atomics.'}
-                        link={'https://github.com/gcc-mirror/gcc'}
-                    />
-                    <Card
-                        type={'project'}
-                        text={'TensorFlow'}
-                        abstract={'I am working on implementing native support for Parameter Search Decomposition'}
-                        link={'https://github.com/tensorflow/tensorflow'}
+                        type={'award'}
+                        text={'USAPhO Qualifier 1x'}
+                        description={''}
                     />
                 </section>
             </div>

@@ -77,7 +77,19 @@ class Resume extends React.Component {
               "https://drive.google.com/file/d/1-ee7568pyCOz5K2uFFOjDBTTfSVYQLBF/view"
             }
             abstract={
-              "This Paper Archtitects a novel algorithm for finding the minima of a dynamic system"
+              "This Paper Archtitects a novel algorithm for finding the minima of a dynamic state machine defined by a markov chain without evaluating the gradient of the generated function."
+            }
+          />
+          <Card
+            type={"publication"}
+            text={
+              "Applying Networks of Stochastic Analyzers to construct Security Price Predictions"
+            }
+            link={
+              "https://drive.google.com/file/d/1-ee7568pyCOz5K2uFFOjDBTTfSVYQLBF/view"
+            }
+            abstract={
+              "This Paper Archtitects a novel algorithm for finding the minima of a dynamic state machine defined by a markov chain without evaluating the gradient of the generated function."
             }
           />
         </section>

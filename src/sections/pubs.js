@@ -9,9 +9,9 @@ export function Publication(props)  {
             <p className="description">
                 {trucnate(props.abstract, 100)}
             </p>
-            <a href={props.link}>
-                Read More
-            </a>
         </div>
     );
 }
+//<a href={props.link}>
+//Read More
+//</a>

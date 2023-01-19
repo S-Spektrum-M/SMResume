@@ -77,7 +77,7 @@ class Resume extends React.Component {
               "https://drive.google.com/file/d/1-ee7568pyCOz5K2uFFOjDBTTfSVYQLBF/view"
             }
             abstract={
-              "This Paper Archtitects a novel algorithm for finding the minima of a dynamic state machine defined by a markov chain without evaluating the gradient of the generated function."
+              "This paper archtitects a novel algorithm for finding the minima of a dynamic state machine defined by a markov chain without evaluating the gradient of the generated function."
             }
           />
           <Card
@@ -89,7 +89,7 @@ class Resume extends React.Component {
               "https://drive.google.com/file/d/1-ee7568pyCOz5K2uFFOjDBTTfSVYQLBF/view"
             }
             abstract={
-              "This Paper Archtitects a novel algorithm for finding the minima of a dynamic state machine defined by a markov chain without evaluating the gradient of the generated function."
+              "This paper procides a system of analyzing the Stock Market and the movement of its constituent by treating the market as a graph of connected individuals. This system of aggregated prediction constructes a GNN which is parsed and provides predictive capacity to a series of stochastic analyzers."
             }
           />
         </section>

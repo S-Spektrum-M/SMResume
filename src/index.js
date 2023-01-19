@@ -102,7 +102,7 @@ class Resume extends React.Component {
               [
                 "2022",
                 "2023",
-                "Quantitative Research Intern",
+                "2nd Year Associate Quantitative Analysis Intern",
                 "I helped develop 2 novel algorithms, Parameter Search Reduction and Decision Boundary Optimization, which have high penetration within JPMC.",
               ],
             ]}

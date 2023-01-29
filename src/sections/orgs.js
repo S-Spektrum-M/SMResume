@@ -1,4 +1,5 @@
-export function Organization(props)  {
+export function Organization(props) {
+    //var props = this.props;
     var roles = props.roles;
     return (
         <div className="card">
@@ -7,7 +8,7 @@ export function Organization(props)  {
                 return (
                     <div className="role">
                         <p className="header">
-                            {role[2]} <em> {role[0]}-{role[1]} </em>
+                            <strong> {role[2]} <em> {role[0]}-{role[1]} </em> </strong>
                         </p>
                         <p  className="description">
                             {role[3]}

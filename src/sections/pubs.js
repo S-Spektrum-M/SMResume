@@ -2,16 +2,15 @@ function trucnate(str, n) {
     return str.slice(0, n) + '...'
 }
 
-export function Publication(props)  {
+export function Publication(props) {
     return (
         <div className="card">
             <h3> {props.text} </h3>
+            <hr />
             <p className="description">
                 {trucnate(props.abstract, 100)}
             </p>
+            <a href={props.link}>Read More</a>
         </div>
     );
 }
-//<a href={props.link}>
-//Read More
-//</a>

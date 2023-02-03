@@ -98,7 +98,8 @@ body {
     text-decoration: none;
     margin: 5px;
     cursor: pointer;
-    position: relative;
+    position: absolute;
+    bottom: 0;
 }
 
 .card a:hover {

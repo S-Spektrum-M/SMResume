@@ -119,11 +119,11 @@ class Resume extends React.Component {
                             ],
                         ]}
                     />
+                    <br>
                     <Card
                         type={"organization"}
                         text={"Washington High School Computer Science Club"}
                         roles={[
-                            ["2023", "2024", "Vice President", ""],
                             [
                                 "2022",
                                 "2023",
@@ -137,8 +137,8 @@ class Resume extends React.Component {
                         type={"organization"}
                         text={"Washington High School Math Society"}
                         roles={[
-                            ["2022", "2023", "Treasurer", ""],
-                            ["2022", "2023", "Instructor", ""],
+                            ["2022", "2023", "Treasurer", "Dealt with School organizations and constructed a way of collecting funds for WHS' first AMC ever."],
+                            ["2022", "2023", "Instructor", "Provided instruction in the topics covered in AMC 10 to members."],
                             ["2021", "2022", "Member", ""],
                         ]}
                     />
@@ -152,6 +152,7 @@ class Resume extends React.Component {
                                 "Treasurer",
                                 "Managed  club finances and helped to lower price  of  competitions for  students.",
                             ],
+                            ["2021", "2024", "Competitor", "Participated in the CalCup Quizbowl tournaments as part of our varsity competitive team."],
                             ["2021", "2022", "Member", ""],
                         ]}
                     />
@@ -164,25 +165,6 @@ class Resume extends React.Component {
                         type={"organization"}
                         text={"Washington High School Speech and Debate"}
                         roles={[["2021", "2023", "Member", ""]]}
-                    />
-                </section>
-                <h2> Projects and Open Source </h2>
-                <section className="container">
-                    <Card
-                        type={"project"}
-                        text={"GCC"}
-                        abstract={
-                            "I helped work on Go compilation support for GCC bugfixing coroutines and atomics."
-                        }
-                        link={"https://github.com/gcc-mirror/gcc"}
-                    />
-                    <Card
-                        type={"project"}
-                        text={"TensorFlow"}
-                        abstract={
-                            "I am working on implementing native support for Parameter Search Decomposition"
-                        }
-                        link={"https://github.com/tensorflow/tensorflow"}
                     />
                 </section>
                 <h2> Education </h2>

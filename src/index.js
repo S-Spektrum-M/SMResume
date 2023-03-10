@@ -120,6 +120,8 @@ class Resume extends React.Component {
                         ]}
                     />
                     <br />
+                </section>
+                <section className="container">
                     <Card
                         type={"organization"}
                         text={"Washington High School Computer Science Club"}

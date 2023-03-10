@@ -119,7 +119,7 @@ class Resume extends React.Component {
                             ],
                         ]}
                     />
-                    <br>
+                    <br />
                     <Card
                         type={"organization"}
                         text={"Washington High School Computer Science Club"}

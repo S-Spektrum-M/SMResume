@@ -225,6 +225,14 @@ class Resume extends React.Component {
                             "CS102: Introduction to Programming With C++",
                         ]}
                     />
+                    <Card
+                        type={"education"}
+                        school={"Stanford ULO"}
+                        gpa={5.0}
+                        courses={[
+                            "Differential Equations"
+                        ]}
+                    />
                 </section>
                 <h2> Accolades </h2>
                 <section className="container">

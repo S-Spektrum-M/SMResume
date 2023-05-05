@@ -230,7 +230,7 @@ class Resume extends React.Component {
                         school={"Stanford ULO"}
                         gpa={5.0}
                         courses={[
-                            "Differential Equations"
+                            "Analysis 1"
                         ]}
                     />
                 </section>

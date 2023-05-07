@@ -90,6 +90,7 @@ body {
     margin: 1.5px;
 }
 .card a {
+    font-family: "Source Sans Pro", sans-serif;
     display: block;
     text-align: center;
     background: black;

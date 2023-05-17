@@ -5,17 +5,19 @@ import { Publication } from "./sections/pubs";
 import { Organization } from "./sections/orgs";
 import { Education } from "./sections/schools";
 import { Award } from "./sections/awards";
-import React from "react";
+import React, {} from "react";
 import ReactDOM from "react-dom/client";
 
 function Card(props) {
     if (props.type === "publication") {
         return (
-            <Publication
-                link={props.link}
-                text={props.text}
-                abstract={props.abstract}
-            />
+            <>
+                <Publication
+                    link={props.link}
+                    text={props.text}
+                    abstract={props.abstract}
+                />
+            </>
         );
     } else if (props.type === "organization") {
         return (

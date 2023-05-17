@@ -4,6 +4,7 @@ export function Organization(props) {
     return (
         <div className="card">
             <h3> {props.text} </h3>
+            <hr/>
             {roles.map((role) => {
                 return (
                     <div className="role">

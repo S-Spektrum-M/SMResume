@@ -61,6 +61,18 @@ class Resume extends React.Component {
                     <Card
                         type={"publication"}
                         link={
+                            "https://www.amazon.com/Preliminary-Courses-Mathematics-Undergraduate-Engineering/dp/B0CKYCQPDM"
+                        }
+                        text={
+                            "Preliminary Courses in Mathematics: A Reference Manual for Undergraduate Engineering Mathematics"
+                        }
+                        abstract={
+                            "This textbook provides a unified introduction to the essential topics in calculus, differential equations, and linear algebra. The book begins with a discussion of calculus, including limits, derivatives, integrals, and applications. The next section covers linear algebra, including vector spaces, matrices, and eigenvalues and eigenvectors. The book concludes on a discussion about differential equations, including first-order equations, second-order equations, and systems of equations. The book is designed as a companion text for students who are taking these courses for the first time and those that would like to look back on these subjects."
+                        }
+                    />
+                    <Card
+                        type={"publication"}
+                        link={
                             "https://www.authorea.com/users/464986/articles/616273-security-price-analysis-using-sentiment-analysis-polynomial-regression-markov-chains-and-cart-trees"
                         }
                         text={
